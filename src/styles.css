@@ -1,0 +1,79 @@
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif; /* Twitter-like font stack */
+    background-color: #1a1a1a; /* Black background */
+    color: #ff4d4d; /* Soothing red text color */
+}
+
+.container {
+    text-align: center; /* Center align the content */
+    max-width: 600px; /* Limit container width */
+    margin: 0 auto; /* Center container */
+    padding: 20px; /* Add padding */
+}
+
+.title {
+    margin-top: 20px; /* Add some margin from the top */
+}
+
+textarea {
+    width: calc(100% - 40px); /* Calculate width with padding */
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ff4d4d; /* Soothing red border color */
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 10px; /* Add margin to bottom */
+    background-color: #fff; /* White background */
+    color: #000000; /* Twitter-like text color */
+}
+
+textarea:focus {
+    outline: none; /* Remove default browser outline */
+    border-color: #ff4d4d; /* Red border color on focus */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Soothing red primary color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px; /* Adjust border-radius to make buttons rounder */
+    margin-bottom: 10px; /* Add margin to bottom */
+}
+
+button:hover {
+    background-color: #ff3333; /* Darker shade of red on hover */
+}
+
+.post {
+    border: 1px solid #ff4d4d; /* Soothing red border color */
+    padding: 16px;
+    margin-bottom: 30px; /* Add more space between posts */
+    background-color: #1a1a1a; /* Black background for tweets */
+    border-radius: 8px;
+    color: #fff; /* White font color for tweets */
+}
+
+/* Logo */
+.logo {
+    width: 60px; /* Adjust width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Like Button */
+.like-button {
+    padding: 0; /* Remove padding from the button */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer;
+    display: inline-block; /* Make the button inline */
+    vertical-align: middle; /* Align the button vertically */
+}
+
+.like-icon {
+    width: 20px; /* Adjust the width of the like icon */
+    height: 20px; /* Adjust the height of the like icon */
+    filter: brightness(0) invert(1); /* Invert the color of the like icon to white */
+}
