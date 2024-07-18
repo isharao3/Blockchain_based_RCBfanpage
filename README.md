@@ -1,1 +1,1 @@
-This is a Blockchain based website built with Solididy.
+This is a Blockchain based RCB fanpage website built with Solididy.
